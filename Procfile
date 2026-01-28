@@ -1,1 +1,1 @@
-web: gunicorn RefFlask:app
+web: gunicorn RefFlask:app --bind 0.0.0.0:$PORT
